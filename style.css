@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 
 /* Altering whole page */
 body {
@@ -32,7 +32,7 @@ h1 {
     justify-content: space-around;
 }
 
-.bkg-colour {
+.main-content {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -99,13 +99,19 @@ button {
     font-weight: 700;
     color: #1F2937;
     text-align: center;
-    margin: 40px;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.info {
+    margin: 82px 0;
 }
 
 .img-container {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .placeholder {
@@ -127,4 +133,25 @@ button {
 .footer {
     background-color: #1F2937;
     margin-top: auto;
+}
+
+/* Quote Section Styling */
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quote-text {
+    margin: 150px 0 auto 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    padding-left: 250px;
+    flex-basis: 150px;
+    font-weight: 700;
 }
