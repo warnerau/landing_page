@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Altering whole page */
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+.page-wrap {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+/* Header Styling */
 ul {
     list-style-type: none;
     display: flex;
@@ -19,16 +27,28 @@ h1 {
     font-size: 24px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bkg-colour {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero Styling */
 h2 {
     font-size: 48px;
     font-weight: 700;
 }
 
-h1, h2, .hero p, button {
+h1, .hero h2, .hero p, button {
     color: #F9FAF8;
 }
 
-img {
+.hero img {
     width: 400px;
     height: auto;
 }
@@ -40,24 +60,6 @@ button {
     font-size: 18px;
     padding: 5px 40px;
     margin: 20px 0;
-}
-
-.page-wrap {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
-
-.bkg-colour {
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-}
-
-.header {
-    display: flex;
-    justify-content: space-around;
 }
 
 .hero {
@@ -84,10 +86,42 @@ button {
     margin: 0 0 10px 0;
 }
 
+/* Footer Styling */
 .footer p {
     text-align: center;
     color: #F9FAF8;
     padding: 10px 0 10px 0;
+}
+
+/* Information Section Styling */
+.info h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: center;
+    margin: 40px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.placeholder {
+    max-width: 300px;
+}
+
+.placeholder img {
+    width: 300px;
+    height: auto;
+    border-radius: 0.3em;
+}
+
+.placeholder div p {
+    text-align: center;
+    margin: 8px 0;
+    color: #696969;
 }
 
 .footer {
