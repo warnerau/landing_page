@@ -11,6 +11,16 @@ body {
     flex-direction: column;
     margin: 0;
 }
+
+.button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 40px;
+    margin: 20px 0;
+}
+
 /* Header Styling */
 ul {
     list-style-type: none;
@@ -53,14 +63,6 @@ h1, .hero h2, .hero p, button {
     height: auto;
 }
 
-button {
-    background-color: #3882F6;
-    border-color: #3882F6;
-    border-radius: 0.3rem;
-    font-size: 18px;
-    padding: 5px 40px;
-    margin: 20px 0;
-}
 
 .hero {
     display: flex;
@@ -99,7 +101,7 @@ button {
     font-weight: 700;
     color: #1F2937;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 82px;
     margin-top: 0;
 }
 
@@ -130,10 +132,6 @@ button {
     color: #696969;
 }
 
-.footer {
-    background-color: #1F2937;
-    margin-top: auto;
-}
 
 /* Quote Section Styling */
 .quote-container {
@@ -154,4 +152,62 @@ button {
     padding-left: 250px;
     flex-basis: 150px;
     font-weight: 700;
+    font-size: 18px;
+}
+
+/* Call to Action Styling */
+.call-wrapper {
+    display: flex;
+    margin: 85px 150px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 0.3em;
+}
+
+.call-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-wrapper .button {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    align-self: center;
+}
+
+.content-p, .content-p2 {
+    color: #F9FAF8;
+}
+
+.content-p {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content-p2 {
+    margin-bottom: 40px;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #1F2937;
+    margin-top: auto;
+}
+
+.footer p a {
+    color: inherit;
+}
+
+.footer p:nth-child(1) {
+    margin-bottom: 0;
+}
+
+.footer p:nth-child(2) {
+    margin-top: 0;
 }
