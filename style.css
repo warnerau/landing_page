@@ -16,8 +16,30 @@ li {
 }
 
 h1 {
-    color: #F9FAF8;
     font-size: 24px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h1, h2, .hero p, button {
+    color: #F9FAF8;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 0.3rem;
+    font-size: 18px;
+    padding: 5px 40px;
+    margin: 20px 0;
 }
 
 .page-wrap {
@@ -27,12 +49,40 @@ h1 {
     margin: 0;
 }
 
+.bkg-colour {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
-    background-color: #1F2937;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.left-item, .right-item {
+    width: 400px;
+    height: 300px;
+    padding: 15px 15px 30px 15px;
+}
+
+.left-item p {
+    margin: 18px auto;
+}
+
+.left-item h2 {
+    margin: 0 0 10px 0;
+}
 
 .footer p {
     text-align: center;
