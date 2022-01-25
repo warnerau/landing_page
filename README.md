@@ -1,2 +1,3 @@
-# landing_page
-A simple landing page to practice CSS Flexbox
+# Landing Page
+A simple landing page for completed for The Odin Project
+Made to practice CSS Flexbox
